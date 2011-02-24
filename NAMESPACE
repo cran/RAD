@@ -1,0 +1,12 @@
+export( "MDMnMod",
+"negBinMod",
+"predict.N",
+"predict.nij",
+"predict.S",
+"truncMod",
+"fish.data",
+"n.data"
+)
+import( mvtnorm)
+import( MASS)
+
