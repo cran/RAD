@@ -1,12 +1,12 @@
 export( "MDMnMod",
 "negBinMod",
-"predict.N",
-"predict.nij",
-"predict.S",
 "truncMod",
 "fish.data",
 "n.data"
 )
 import( mvtnorm)
 import( MASS)
+S3method( predict, MDMnMod)
+S3method( predict, negBinMod)
+S3method( predict, truncMod)
 

@@ -2,8 +2,8 @@ fish.data                           fish.data
 MDMnMod                             MDMnMod
 n.data                              n.data
 negBinMod                           negBinMod
-predict.N                           predict.N
-predict.nij                         predict.nij
-predict.S                           predict.S
+predict.MDMnMod                     predict
+predict.negBinMod                   predict
+predict.truncMod                    predict
 RAD                                 RAD
 truncMod                            truncMod

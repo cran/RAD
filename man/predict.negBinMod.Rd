@@ -1,15 +1,14 @@
-\name{predict.N
-}
-\alias{predict.N
-}
-\title{predict.N
-}
+\name{predict.negBinMod}
+\alias{predict.negBinMod}
+\title{predict}
 \description{Predict values for N and E(N) given a model for N and new covariates.
 }
-\usage{predict.N(object,new.obs,offset=1,...)
+\usage{
+## S3 method for class 'negBinMod'
+\method{predict}{negBinMod}(object,new.obs,offset=1,...)
 }
 \arguments{
-\item{ object}{a fitted model from negBinMod, of class N.}
+\item{ object}{a fitted model from negBinMod, of class negBinMod.}
 \item{ new.obs}{new covariates used to predict N. Must contain the same names as in the formula for negBinMod}
 \item{ offset}{Predict sample for an area of this dimension}
 \item{ ... }{additional arguments to be passed to predict}
@@ -29,7 +28,7 @@ new.obs will be automatically scaled using details in model.N if scale.covar==TR
 N.form <- N~1  + depth + O2_AV + temp_AV + offset(log(area))
 model.N <- negBinMod(N.form,data=fish.data,est.var=TRUE,scale.covar =FALSE)
 N.pred <- rep(NA,100)
-for(n in 1:100) N.pred[n] <- predict.N(model.N,fish.data[5,],offset=10)$N
+for(n in 1:100) N.pred[n] <- predict(model.N,fish.data[5,],offset=10)$N
 hist(N.pred)
 }
 \keyword{misc}

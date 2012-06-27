@@ -1,0 +1,15 @@
+c2cf69ae9d4cfeb75144c4fcf8da6de6 *DESCRIPTION
+72df35a2afa11cc41e4f2610f723dfa1 *INDEX
+0511d18e6f9618c8a9c8382a65f37823 *NAMESPACE
+52110951e8956fe847b39c7adb459fb1 *R/RAD.R
+f19cab7d417c53c0595490cb3d7b4409 *R/sysdata.rda
+fcc82f0e4712d69aab968a87a1786548 *man/MDMnMod.Rd
+5954d8007495110c6c58a34465aea540 *man/RAD.Rd
+c8b61a7a831eced5d553ba60b15dd0e8 *man/fish.data.Rd
+3d989940de96ce326d8bea6a2c1a8d8d *man/n.data.Rd
+72bd475c1eb9dd10ee59c60e5e52a923 *man/negBinMod.Rd
+14cf0888423dc4e793440e0f8b57306e *man/predict.MDMnMod.Rd
+e8cbb280095d1d4cb955480c67c8b3dd *man/predict.negBinMod.Rd
+736c58c26bc91b6b60a1128127310d5e *man/predict.truncMod.Rd
+4e424eb052171d33117f1a26575308d2 *man/truncMod.Rd
+ea48ea6a02573a6601f1ffdc8912afb1 *src/estBetaBinomial.c
